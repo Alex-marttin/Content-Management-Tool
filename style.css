@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    line-height: 1.6;
+    color: hsl(190, 50%, 72%);
+}
+
+header {
+    background-color: hsl(196, 72%, 11%);
+    color: #d3ec15;
+    text-align: center;
+    padding: 20px 0;
+    font-family:'Times New Roman', Times, serif;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+main {
+    background-color: hsl(142, 78%, 32%);
+    box-shadow: 0 0 10px rgb(229, 66, 66);
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+#textFile {
+    display: flex;
+    justify-content: space-between;
+}
+
+.editor-section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.editor-section h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+
+.imag{
+    height: 60px;
+    width: 60px;
+    border-radius: 20px;
+    border-width: 20px 10px 20px 10px;
+}
+
+textarea, input[type="text"], input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ee0707;
+    border-radius: 50px;
+    margin-bottom: 10px;
+    background-color: rgb(199, 231, 199);
+}
+
+button {
+    background-color: #f97c7c;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #555555;
+}
+
+#contents {
+    background-color: #e0b66d;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgb(240, 88, 88);
+}
+
+#contentContainer {
+    border: 5px solid #e05050;
+    padding: 10px;
+    border-radius: 50px;
+    min-height: 200px;
+    background-color: #e2d784;
+}

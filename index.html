@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<script src="script.js"></script>
+<head>
+    <title>Content Management Tool</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img class="imag" src="https://img.favpng.com/5/10/12/paper-computer-icons-stack-printing-clip-art-png-favpng-mWAedtYGTYLREXe5djaZ5MEGk.jpg" alt=""><
+        <h1>Content Management Tool</h1>
+    </header>   
+    <main>
+            <div id="textFile">
+                <h2>Content Name</h2>
+                <textarea id="textIn" placeholder="Enter the name or content information"></textarea>
+                <button id="textBtn">Add Content</button>
+            <div id="imageFile">
+                <h2>Image File</h2>
+                <input type="file" id="imageIn" accept="image/*">
+                <button id="imageBtn">Add Image</button>
+            </div>
+            <div id="videoFile">
+                <h2> Video File</h2>
+                <input type="text" id="videoLink" placeholder="Enter video URL...">
+                <button id="videoBtn">Add Video</button>
+            </div>
+        </div>
+        <div id="Contents">
+            <h2>Your Contents</h2>
+            <div id="contentContainer"></div>
+        </div>
+    </main>
+</body>
+</html>
